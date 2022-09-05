@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="4.097">
+<testcase classname="GET | GET a random user ID and Verify its associated posts" name="GET a random user ID and Verify its associated posts" time="3.265">
+<system-out><![CDATA[Given user navigate to Base URL.............................................passed
+Then GET random user ID and print his email to console......................passed
+And get this user’s associated posts and verify they contains a valid Post IDs.passed
+]]></system-out>
+</testcase>
+<testcase classname="create &quot;POST&quot; a new user with same past user ID and verify its response" name="POST new User and Verify its response" time="0.671">
+<system-out><![CDATA[Given user navigate to main base URL........................................passed
+And create a new user with same past user ID................................passed
+]]></system-out>
+</testcase>
+</testsuite>
